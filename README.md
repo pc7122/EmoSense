@@ -1,0 +1,2 @@
+# EmoSense
+Multimodal Emotion Recognition
