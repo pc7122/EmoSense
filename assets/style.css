@@ -1,0 +1,49 @@
+[data-testid="stSidebar"][aria-expanded="true"] > div:first-child {
+  width: 330px;
+}
+
+[data-testid="stSidebar"][aria-expanded="false"] > div:first-child {
+  width: 330px;
+  margin-left: -350px;
+}
+
+[data-testid="stSidebar"]
+  [data-testid="stMarkdownContainer"]
+  > div:first-child
+  h1 {
+  padding: 0rem 0rem 0rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.css-1544g2n.e1fqkh3o4 {
+  padding-top: 4rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+#tabs-bui3-tabpanel-2
+  > div
+  > div
+  > div
+  > div.st-emotion-cache-0.e1f1d6gn0
+  > div
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > div
+  > img {
+  background-color: white;
+  padding: 1rem;
+}
+
+button[kind="primary"] {
+  color: black;
+}
+
+button[kind="primary"] p {
+  font-weight: 600;
+}
