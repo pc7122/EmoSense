@@ -5,8 +5,27 @@ from page.about import about_page
 from page.image import image_page
 from page.audio import audio_page
 from page.video import video_page
-from assets.style import option_menu_style
 
+
+# basic streamlit option menu styling
+option_menu_style = {
+    'container': {
+        'margin-top': '1rem',
+        'padding-bottom': '1rem',
+    },
+    'icon': {
+        'font-size': '1rem'
+    },
+    'nav-link': {
+        'font-family': 'roboto',
+        'font-size': '1rem',
+        'text-align': 'left',
+    },
+    'nav-link-selected': {
+        'background-color': '#55EB87',
+        'color': 'black',
+    }
+}
 
 # basic streamlit settings and styling
 st.set_page_config(layout='wide', page_title='EmoSense')
