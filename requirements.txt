@@ -1,0 +1,17 @@
+streamlit==1.30.0
+validators==0.22.0
+streamlit-option-menu==0.3.12
+wave==0.0.2
+opencv-python==4.9.0.80
+numpy==1.26.3
+pyaudio==0.2.14
+librosa==0.10.0
+sounddevice==0.4.6
+matplotlib==3.7.0
+pandas==2.1.4
+tensorflow==2.15.0
+mediapipe==0.10.9
+requests==2.31.0
+pillow==10.2.0
+deepface==0.0.81
+setuptools==68.2.2
